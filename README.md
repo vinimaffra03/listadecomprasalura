@@ -1,5 +1,5 @@
 
-![Descricao da sua imagem](https://imgur.com/tH3NbvK.png)
+![Descricao da sua imagem](https://imgur.com/C8TfWXc.png)
 
 # Titulo do projeto
 
