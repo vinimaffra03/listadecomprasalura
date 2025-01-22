@@ -16,17 +16,16 @@
     <input>
         <img src="/img/bag.png" alt="sacola de compras">
         <form>
-            <input type="text" placeholder="Digite o item que deseja adicionar"></input>
-            <button>Salvar item</button>
+            <input id="input-item" placeholder="Digite o item que deseja adicionar"></input>
+            <button id="adicionar-botao">Salvar item</button>
         </form>
 
-        <h2>Lista de Compras</h2>
-        <hr />
-
         <ul>
+            <h2>Lista de Compras</h2>
+            <hr />
             <li>
-                <div>
-                    <div>
+                <div class="item-lista-container">
+                    <div class="item-nome-compra">
                         <input type="checkbox"/>
                         <p>Ração de gato</p>
                     </div>
@@ -39,7 +38,7 @@
                         </button>
                     </div>
                 </div>
-                <p>Segunda-feira (31/10/2022) às 08:30</p>
+                <p class="item-lista-texto">Segunda-feira (31/10/2022) às 08:30</p>
             </li>
         </ul>
     </main>
